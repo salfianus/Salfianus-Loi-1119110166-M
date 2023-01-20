@@ -1,0 +1,10 @@
+DARI ubuntu
+JALANKAN pembaruan yang tepat
+RUN apt upgrade
+JALANKAN apt-get install -y apache2
+JALANKAN apt-get install -y apache2-utils
+RUN tepat bersih
+SALIN ./html/. /var/www/html
+WORKDIR /var/www/html
+CMD [ "apache2ctl" , "-D" , "FOREGROUND" ]
+EKSPOS 80 443

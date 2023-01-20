@@ -1,0 +1,12 @@
+name : Push git-action otomatis
+run-name : ${{ github.actor }} Melakukan push dockerhub
+aktif : [tekan]
+pekerjaan :
+  BUILD-AND-PUSH-IMAGE :
+    berjalan : ubuntu-terbaru
+    langkah :
+      - menggunakan : tindakan/checkout@v3
+      - nama : buat dan tandai gambar
+        jalankan : docker build. --file Dockerfile --tag salfianusloi/projectuas:v2
+      - nama : Dorong gambar ke hub buruh pelabuhan
+        jalankan : docker login -u salfianusloi -p ${{secrets.DOCKER_salfianusloi}} && docker push msalfianusloi/projectuas:v2

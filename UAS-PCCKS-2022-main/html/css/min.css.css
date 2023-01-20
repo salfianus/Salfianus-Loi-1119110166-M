@@ -1,0 +1,97 @@
+* {
+    marjin :  0 ;
+    bantalan :  0 ;
+}
+tubuh {
+    font-family :  "Source Sans Pro" ,  'Lucida Sans' ,  'Lucida Sans Regular' ,  'Lucida Grande' ,  'Lucida Sans Unicode' , Jenewa , Verdana , sans-serif;
+    text-transform : huruf besar;
+    font-berat :  300 ;
+    spasi huruf :  4 px ;
+    perataan teks : tengah;
+    warna :  # 414f57 ;
+    background-image :  linear-gradient ( rgba ( 0 , 0 , 0 , 0.1 ) , rgba ( 0 , 0 , 0 , 0.1 )) , url ( "../img/LB.png" );
+    background-repeat : no-repeat;
+    background-size : cover;
+    min-tinggi :  100 vh ;
+}
+catatan kaki {
+    lebar :  100 % ;
+    tampilan : blokir;
+    perataan teks : tengah;
+    ukuran font :  17,5 px ;
+    warna : putih;
+    garis-tinggi :  75 px ;
+    posisi : absolut;
+    bawah :  0 ;
+}
+div . utama {
+    lebar :  400 piksel ;
+    background-color : putih;
+    border-radius :  5 px ;
+    perataan teks : tengah;
+    ukuran kotak : kotak batas;
+    padding :  75 px  25 px ;
+    tampilan : blok-sebaris;
+    tinggi :  490px ; _
+    margin-top :  calc ((( 100 vh  -  565 px ) /  2 ));
+}
+div . bagian utama  . foto {
+    tinggi :  125 piksel ;
+}
+div . bagian utama  . foto img { 
+    tinggi :  125 piksel ;
+    batas-radius :  50 % ;
+}
+div . bagian utama  . informasi {
+    tinggi :  115px ; _
+}
+div . bagian utama  . info h1 { 
+    ukuran font :  30 px ;
+    font-berat :  400 ;
+    garis-tinggi :  50 px ;
+    padding-top :  25 px ;
+    padding-bottom :  10 px ;
+}
+div . bagian utama  . info h2 { 
+    ukuran font :  18 px ;
+    font-berat :  300 ;
+    garis-tinggi :  30 px ;
+}
+div . bagian utama  . tautan {
+    tinggi :  100px ; _
+    padding-top :  37,5 px ;
+    padding-bottom :  12,5 px ;
+    ukuran kotak : kotak batas;
+}
+div . bagian utama  . menghubungkan sebuah { 
+    tinggi :  50 piksel ;
+    dekorasi teks : tidak ada;
+    tampilan : blok-sebaris;
+    margin :  0  7,5 piksel ;
+}
+div . bagian utama  . menautkan svg { _  
+    tinggi :  50 piksel ;
+    lebar : otomatis;
+}
+div . bagian utama  . menautkan jalur svg { _   
+    isi :  # c8cccf ;
+    transisi : isi 0,25 detik kemudahan;
+}
+div . bagian utama  . tautan a : arahkan kursor ke jalur svg {   
+    isi :  # 414f57 ;
+}
+
+@media  hanya layar dan ( max-width :  444.44 px ) {
+    div . utama {
+        lebar :  90 % ;
+    }
+}
+@media  hanya layar dan ( max-height :  653.88 px ) dan ( max-width :  444.44 px ) {
+    div . utama {
+        margin :  5 vw  0 ;
+        margin-bawah :  0 ;
+    }
+    catatan kaki {
+        posisi : relatif;
+    }
+}

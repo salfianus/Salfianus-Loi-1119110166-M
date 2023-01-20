@@ -1,0 +1,1551 @@
+*
+Nama Templat: VIDOE - Templat HTML Situs Web Streaming Video
+Penulis: Askbootstrap
+Penulis URI: https://themeforest.net/user/askbootstrap
+Versi: 1.0
+*/
+/*
+	-- Tubuh
+	-- Nav
+	-- Bilah samping
+	-- Sesuaikan Bootstrap
+	-- Penggeser Kategori
+	-- Kartu Video
+	-- Kartu Saluran
+	-- Unggah Detail
+	-- Tonton Sejarah
+	-- Saluran Tunggal
+    -- Halaman Video
+    -- Akun saya
+	-- Kaki
+*/
+/* Tubuh */
+ html {
+     posisi : relatif;
+     min-tinggi :  100 % ;
+}
+ tubuh {
+     background-color :  # fafafa ;
+     warna :  # 888 ;
+     ukuran font :  13 px ;
+     tinggi :  100 % ;
+}
+. h1 , . h2 , . h3 , . h4 , . h5 , . h6 ,  h1 ,  h2 ,  h3 ,  h4 ,  h5 ,  h6 {
+}
+ # bungkus {
+     tampilan : -webkit-box;
+     tampilan : -ms-flexbox;
+     tampilan : fleksibel;
+}
+ # pembungkus  # pembungkus konten {
+     luapan-x : tersembunyi;
+     lebar :  100 % ;
+}
+ # bungkus  # pembungkus konten . wadah-cairan {
+     padding :  30 px  30 px  30 px  255 px ;
+}
+. sidebar-toggled  # wrapper  # content-wrapper . wadah-cairan {
+     padding :  30 px  30 px  30 px  121 px ;
+}
+. laman-saluran-tunggal {
+    bantalan :  0 px  0 px  0 px  225 px ;   
+}
+. sidebar-toggled . laman-saluran-tunggal {
+    bantalan :  0 px  0 px  0 px  90 px ;   
+}
+. laman saluran tunggal . wadah-cairan {
+    padding :  30 px  30 px  30 px  !penting ;
+}
+ tubuh . fixed-nav  # content-wrapper {
+     margin-atas :  56 px ;
+     padding-kiri :  90 px ;
+}
+}
+tubuh. fixed-nav . sidebar-toggled  # content-wrapper {
+     padding-kiri :  0 ;
+}
+ @media ( min-lebar :  768 px ) {
+     tubuh . fixed-nav  # content-wrapper {
+         padding-kiri :  225 px ;
+    }
+     tubuh . fixed-nav . sidebar-toggled  # content-wrapper {
+         padding-kiri :  90 px ;
+    }
+}
+. carousel-login-card {
+    bantalan :  11px 0  ; _
+}
+. gulir ke atas {
+     background :  rgba ( 52 ,  58 ,  64 ,  0.5 ) tidak ada ulangi scroll 0  0 ;
+     border-radius :  70 px  !important ;
+     bawah :  86 piksel ;
+     warna :  #ff ; _
+     tampilan : tidak ada;
+     tinggi :  50 piksel ;
+     garis-tinggi :  46 px ;
+     posisi : tetap;
+     kanan :  15 piksel ;
+     perataan teks : tengah;
+     lebar :  50 piksel ;
+}
+. scroll-to-top : fokus , . gulir ke atas : arahkan {
+     warna : putih;
+}
+. gulir ke atas : arahkan {
+     latar belakang :  # 343a40 ;
+}
+. gulir ke atas  saya {
+     font-berat :  800 ;
+}
+. lebih kecil {
+     ukuran font :  0,7 rem ;
+}
+. o-tersembunyi {
+     luapan : tersembunyi !penting ;
+}
+. z-0 {
+     indeks-z :  0 ;
+}
+. z-1 {
+     indeks-z :  1 ;
+}
+. intro-halaman  img {
+    perbatasan :  5 px padat # fff ;
+    border-radius :  12 px  !important ;
+    bayangan kotak :  0  0  21 px  # ccc ;
+}
+. intro-halaman  p  a {
+    warna :  # 000  !penting ;
+    font-berat : tebal;
+    text-transform : huruf besar;
+}
+. navbar-nav . form-inline . grup masukan {
+     lebar :  100 % ;
+}
+. navbar-nav . nav-item . tarik -turun . dropdown-toggle :: setelah {
+     lebar :  1 rem ;
+     perataan teks : tengah;
+     mengapung : benar;
+     perataan vertikal :  0 ;
+     perbatasan :  0 ;
+     font-berat :  900 ;
+     isi :  '\f105' ;
+     font-family :  'Font Keren 5 Gratis' ;
+}
+. navbar-nav . nav-item . tarik -turun . menunjukkan . dropdown-toggle :: setelah {
+     isi :  '\f107' ;
+}
+. navbar-nav . nav-item . tarik -turun . tanpa panah . dropdown-toggle :: setelah {
+     tampilan : tidak ada;
+}
+. navbar-nav . nav-item . nav-link : fokus {
+     garis besar : tidak ada;
+}
+. navbar-nav . nav-item . nav-link . lencana {
+     perbatasan : sedang tidak ada !penting ;
+     border-radius :  3 px ;
+     ukuran font :  9 px ;
+     font-berat :  700 ;
+     tinggi :  15 piksel ;
+     garis-tinggi :  9 px ;
+     min-width :  15 px ;
+     posisi : absolut;
+     perataan teks : tengah;
+     atas :  10 piksel ;
+     kanan :  0 ;
+}
+ @media ( min-lebar :  768 px ) {
+     . navbar-nav . form-inline . grup masukan {
+         lebar : otomatis;
+    }
+}
+. bilah sisi {
+     lebar :  90 px  !penting ;
+     latar belakang :  # ff516b ;
+    /* Browser lama */
+     background :  -moz-linear-gradient ( 135 deg ,  # 1275c7  0 % , # d0e3f2  100 % );
+    /* FF3.6-15 */
+     background :  -webkit-linear-gradient ( 135 deg ,  # 1275c7  0 % , # d0e3f2  100 % );
+    /* Chrome10-25,Safari5.1-6 */
+     background :  linear-gradient ( 135 deg ,  # 1275c7  0 % , # d0e3f2  100 % );
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+     filter : progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff516b' , endColorstr='#826cfd' , GradientType=1 );
+    /* fallback IE6-9 pada gradien horizontal */
+     min-tinggi :  100 % ;
+     indeks-z :  9 ;
+     bantalan :  2px 0  ; _
+     posisi : tetap;
+}
+. bilah sisi . nav-item : anak terakhir {
+     margin-bawah :  1 rem ;
+}
+. bilah sisi . nav-item . nav-link {
+     ukuran font :  14 px ;
+     padding :  12 px  14 px  !penting ;
+     perataan teks : tengah;
+     lebar :  90 piksel ;
+     font-berat :  600 ;
+}
+. bilah sisi . nav-item . nav-link : arahkan , . bilah sisi . nav-item . aktif . nav-link {
+     warna latar :  rgba ( 255 ,  255 ,  255 ,  0.2 );
+}
+. bilah sisi . nav-item . nav-link . fas {
+     warna :  #ffffff ; _
+}
+. bilah sisi . nav-item . rentang nav-link  {
+     tampilan : sebaris;
+     ukuran font :  14 px ;
+     margin :  0  0  0  11 piksel ;
+}
+. bilah sisi . nav-item . menu tarik-turun {
+     posisi : mutlak !penting ;
+     -webkit-transform : tidak ada !penting ;
+     transform : tidak ada !penting ;
+     kiri :  kalk ( 90 px  +  0,0 rem ) !penting ;
+     marjin :  0 ;
+}
+. bilah sisi . nav-item . menu tarik-turun . jatuhkan {
+     bawah :  0 ;
+     atas : otomatis !penting ;
+}
+. bilah sisi . nav-item . tarik -turun . dropdown-toggle :: setelah {
+     tampilan : tidak ada;
+}
+. bilah sisi . nav-item . nav-link {
+     warna :  #ffffff ; _
+}
+. bilah sisi . nav-item . nav-link : aktif , . bilah sisi . nav-item . nav-link : fokus , . bilah sisi . nav-item . nav-link : arahkan {
+     warna :  rgba ( 255 ,  255 ,  255 ,  0,75 );
+}
+. bilah sisi . dialihkan {
+     lebar :  0  !penting ;
+     luapan : tersembunyi;
+}
+ @media ( min-lebar :  768 px ) {
+     . bilah sisi {
+        tinggi :  100 % ;
+        luapan : otomatis;
+        posisi : tetap;
+        lebar :  225 px  !penting ;
+    }
+     . bilah sisi . nav-item . nav-link {
+         tampilan : blokir;
+         lebar :  100 % ;
+         perataan teks : kiri;
+         bantalan :  1 rem ;
+         lebar :  225 piksel ;
+    }
+     . bilah sisi . nav-item . rentang nav-link  {
+         tampilan : sebaris;
+         ukuran font :  13 px ;
+         margin :  0  0  0  11 piksel ;
+    }
+     . bilah sisi . nav-item . menu tarik-turun {
+         posisi : statis !penting ;
+         margin :  0  1 rem ;
+         atas :  0 ;
+    }
+     . bilah sisi . nav-item . tarik -turun . dropdown-toggle :: setelah {
+         tampilan : blokir;
+    }
+     . bilah sisi . dialihkan {
+         luapan : terlihat;
+         lebar :  90 px  !penting ;
+    }
+     . bilah sisi . toggle . nav-item : anak terakhir {
+         margin-bawah :  1 rem ;
+    }
+     . bilah sisi . toggle . nav-item . nav-link {
+         perataan teks : tengah;
+         bantalan :  0,75 rem  1 rem ;
+         lebar :  90 piksel ;
+    }
+     . bilah sisi . toggle . nav-item . rentang nav-link  {
+         marjin :  0 ;
+    }
+     . bilah sisi . toggle . nav-item . rentang nav-link  {
+         ukuran font :  0,65 rem ;
+         tampilan : blokir;
+    }
+     . bilah sisi . toggle . nav-item . menu tarik-turun {
+         posisi : mutlak !penting ;
+         -webkit-transform : tidak ada !penting ;
+         transform : tidak ada !penting ;
+         kiri :  kalk ( 90 px  +  0,5 rem ) !penting ;
+         marjin :  0 ;
+    }
+     . bilah sisi . toggle . nav-item . menu tarik-turun . jatuhkan {
+         bawah :  0 ;
+         atas : otomatis !penting ;
+    }
+     . bilah sisi . toggle . nav-item . tarik -turun . dropdown-toggle :: setelah {
+         tampilan : tidak ada;
+    }
+}
+. bilah sisi . tetap-atas {
+     atas :  56px ; _
+     tinggi :  kalk ( 100 vh  -  56 px );
+     luapan-y : otomatis;
+}
+. ikon badan kartu {
+     posisi : absolut;
+     indeks-z :  0 ;
+     atas :  -1,25 rem ;
+     kanan :  -1 rem ;
+     opasitas :  0,4 ;
+     ukuran font :  5 rem ;
+     -webkit-transform :  putar ( 15 deg );
+     transform :  putar ( 15 deg );
+}
+ @media ( min-lebar :  576 px ) {
+     . kolom-kartu {
+         -webkit-column-count :  1 ;
+         hitungan kolom :  1 ;
+    }
+}
+ @media ( min-lebar :  768 px ) {
+     . kolom-kartu {
+         -webkit-column-count :  2 ;
+         hitungan-kolom :  2 ;
+    }
+}
+ @media ( min-lebar :  1200 px ) {
+     . kolom-kartu {
+         -webkit-column-count :  2 ;
+         hitungan-kolom :  2 ;
+    }
+}
+ : akar {
+     --input-padding-x :  0,75 rem ;
+     --input-padding-y :  0,75 rem ;
+}
+. kartu-login {
+     max-width :  25 rem ;
+}
+. daftar kartu {
+     max-width :  40 rem ;
+}
+. form-label-grup {
+     posisi : relatif;
+}
+. form-label-group  >  input , . form-label-grup  >  label {
+     padding :  var ( --input-padding-y ) var ( --input-padding-x );
+     tinggi : otomatis;
+}
+. form-label-grup  >  label {
+     posisi : absolut;
+     atas :  0 ;
+     kiri :  0 ;
+     tampilan : blokir;
+     lebar :  100 % ;
+     margin-bawah :  0 ;
+    /* Ganti margin `<label>` default */
+     garis-tinggi :  1,5 ;
+     warna :  # 495057 ;
+     batas :  1 px padat transparan;
+     border-radius :  0,25 rem ;
+     -webkit-transition : semua 0,1 detik kemudahan keluar;
+     transisi : semua 0,1 detik kemudahan keluar;
+}
+. form-label-group  input :: -webkit-input-placeholder {
+     warna : transparan;
+}
+. masukan form-label-grup  : -ms-input-placeholder {
+     warna : transparan;
+}
+. form-label-group  input :: -ms-input-placeholder {
+     warna : transparan;
+}
+. input form-label-grup  :: placeholder {
+     warna : transparan;
+}
+. masukan form-label-grup  : bukan ( : placeholder-shown ) {
+     padding-top :  calc ( var ( --input -padding-y ) +  var ( --input-padding-y ) * ( 2/3  )  );
+     padding-bottom :  calc ( var ( --input-padding-y ) /  3 );
+}
+. masukan form-label-grup  : not ( : placeholder-shown ) ~ label { 
+     padding-top :  calc ( var ( --input-padding-y ) /  3 );
+     padding-bottom :  calc ( var ( --input-padding-y ) /  3 );
+     ukuran font :  12 px ;
+     warna :  # 777 ;
+}
+ catatan kaki . sticky-footer {
+     background-color :  # e9ecef ;
+     bantalan :  15 piksel ;
+     margin-kiri :  225 px ;
+}
+ catatan kaki . sticky-footer . hak cipta {
+     garis-tinggi :  1 ;
+     ukuran font :  0,8 rem ;
+}
+ tubuh . footer sidebar-toggled  . sticky-footer {
+     lebar :  100 % ;
+}
+ @media ( min-lebar :  768 px ) {
+     tubuh . footer sidebar-toggled  . sticky-footer {
+         lebar :  kalk ( 100 %  -  90 px );
+         margin-kiri :  90 px ;
+    }
+}
+/* Nav */
+. lengket-top {
+    posisi : lengket;
+    atas :  0 ;
+    indeks-z :  99 ;
+}
+. osahan-nav {
+     bayangan kotak :  0  0  10 px  # f2f2f2 ;
+     bantalan :  0 ;
+}
+. osahan-navbar-search . kontrol bentuk {
+     latar belakang :  # eceff0 tidak ada ulangi gulir 0  0 ;
+     batas : sedang tidak ada;
+     ukuran font :  14 px ;
+     max-width :  607 px  !important ;
+     lebar :  607 px  !penting ;
+}
+. pencarian osahan-navbar {
+     margin-kanan :  84 px  !penting ;
+}
+. osahan-navbar-search . btn {
+     latar belakang :  # eceff0 tidak ada ulangi gulir 0  0 ;
+     batas : sedang tidak ada;
+     ukuran font :  14 px ;
+     bantalan :  0  18 px ;
+}
+. osahan-kanan-navbar . nav-link {
+     padding :  17 px  13 px  !penting ;
+     posisi : relatif;
+}
+. osahan-kanan-navbar {
+     margin :  0  7 piksel  0  0 ;
+}
+. tautan tarik-turun pengguna  img {
+     border-radius :  50 px ;
+     tinggi :  30 piksel ;
+     margin :  -9 px  2 px  -6 px  0 ;
+     lebar :  30 piksel ;
+}
+. penelusuran seluler teratas {
+    tampilan : tidak ada;
+}
+. penelusuran seluler teratas {
+    margin :  -16 px  -15 px  19 px  -18 px ;
+}
+. masukan penelusuran seluler teratas  {
+    border-radius :  0 ;
+    box-shadow : none !important ;
+}
+. penelusuran seluler teratas . btn {
+    border-radius :  0 ;
+}
+/* Bilah samping */
+. saluran-sidebar-daftar {
+     border-top :  1 px padat # ff516b ;
+     margin :  6 piksel  0  0 ;
+     bantalan :  7px 14px  ; _ _
+}
+. saluran-sidebar-daftar  h6 {
+     warna :  #ff ; _
+     ukuran font :  14 px ;
+     font-berat :  600 ;
+     margin-bawah :  15 px ;
+     margin-atas :  9 px ;
+}
+. saluran-sidebar-daftar  ul {
+     list-style : di luar tidak ada satupun;
+     marjin :  0 ;
+     bantalan :  0 ;
+}
+. saluran-sidebar-daftar  ul  li  img {
+     border-radius :  50 px ;
+     tinggi :  28 piksel ;
+     margin :  0  14px  0  0 ; _
+     lebar :  28 piksel ;
+}
+. saluran-sidebar-daftar  li  a {
+     warna :  #ff ; _
+     tampilan : blok-sebaris;
+     bantalan :  6 piksel  0 ;
+     dekorasi teks : tidak ada;
+     lebar :  100 % ;
+}
+. saluran-sidebar-daftar  li  a . lencana {
+     mengapung : benar;
+     margin :  7 piksel  0  0 ;
+}
+. bilah sisi . toggle . nav-item . rentang nav-link  {
+     marjin :  0 ;
+}
+. bilah sisi . toggle . saluran-sidebar-daftar  h6 {
+     ukuran font :  11 px ;
+}
+. bilah sisi . toggle . saluran-sidebar-daftar {
+     bantalan :  7 piksel ;
+     perataan teks : tengah;
+}
+. bilah sisi . toggle . saluran-sidebar-daftar  li  img {
+     tampilan : daftar-item;
+     margin : otomatis otomatis 4 px ;
+}
+. bilah sisi . toggle . saluran-sidebar-daftar  li  a {
+     ukuran font :  10 px ;
+     font-berat :  500 ;
+}
+. bilah sisi . toggle . saluran-sidebar-daftar  li . lencana {
+     tampilan : tidak ada;
+}
+/* Sesuaikan Bootstrap */
+. perbatasan-tidak ada {
+     batas : tidak ada;
+}
+. bg-primer , . btn-primer , . btn-outline-primary : hover , . lencana-primer {
+     border-color : transparan !important ;
+     latar belakang :  # ff516b ;
+    /* Browser lama */
+     background :  -moz-linear-gradient ( 135 deg ,  # 1275c7  0 % , # d0e3f2  100 % );
+    /* FF3.6-15 */
+     background :  -webkit-linear-gradient ( 135 deg ,  # 1275c7  0 % , # d0e3f2  100 % );
+    /* Chrome10-25,Safari5.1-6 */
+     background :  linear-gradient ( 135 deg ,  # 1275c7  0 % , # d0e3f2  100 % );
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+     filter : progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff516b' , endColorstr='#826cfd' , GradientType=1 );
+    /* fallback IE6-9 pada gradien horizontal */
+}
+. btn-garis besar-primer {
+     warna batas :  # ff516b ;
+     warna :  # ff516b ;
+}
+. teks-primer {
+     warna :  # ff516b  !penting ;
+}
+. bilah kemajuan {
+     background-color :  # ff516b ;
+}
+. bg-sukses , . btn-sukses , . btn-outline-sukses : hover , . lencana-sukses {
+     border-color : transparan !important ;
+     latar belakang :  # 1275c7 ;
+    /* Browser lama */
+     background :  -moz-linear-gradient ( -45 deg ,  # 1275c7  1 % ,  # 1275c7  100 % );
+    /* FF3.6-15 */
+     latar belakang :  -webkit-linier-gradien ( -45 derajat ,  # 1275c7  1 % , # 1275c7  100 % );
+    /* Chrome10-25,Safari5.1-6 */
+     background :  linear-gradient ( 135 deg ,  # 1275c7  1 % , # 1275c7  100 % );
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+     filter : progid:DXImageTransform.Microsoft.gradient( startColorstr='#1275c7' , endColorstr='#1275c7' , GradientType=1 );
+    /* fallback IE6-9 pada gradien horizontal */
+}
+. btn-garis besar-sukses {
+     border-color :  # 4eda92 ;
+     warna :  # 4eda92 ;
+}
+. teks-sukses {
+     warna :  # 4eda92  !penting ;
+}
+. bg-peringatan , . btn-peringatan , . btn-garis besar-peringatan : arahkan , . peringatan lencana {
+     border-color : transparan !important ;
+     latar belakang :  # ffc107 ;
+    /* Browser lama */
+     background :  -moz-linear-gradient ( -45 deg ,  # ffc107  1 % ,  # fffc07  100 % );
+    /* FF3.6-15 */
+     background :  -webkit-linear-gradient ( -45 deg ,  # ffc107  1 % , # fffc07  100 % );
+    /* Chrome10-25,Safari5.1-6 */
+     background :  linear-gradient ( 135 deg ,  # ffc107  1 % , # fffc07  100 % );
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+     filter : progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffc107' , endColorstr='#fffc07' , GradientType=1 );
+    /* fallback IE6-9 pada gradien horizontal */
+}
+. btn-garis besar-peringatan {
+     warna batas :  # ffc107 ;
+     warna :  # ffc107 ;
+}
+. teks-peringatan {
+     warna :  # ffc107  !penting ;
+}
+. bg-bahaya , . btn-bahaya , . btn-garis besar-bahaya : arahkan , . bahaya lencana {
+     border-color : transparan !important ;
+     latar belakang :  # ff516b ;
+    /* Browser lama */
+     background :  -moz-linear-gradient ( -45 deg ,  # ff516b  0 % ,  # ff516b  100 % );
+    /* FF3.6-15 */
+     background :  -webkit-linear-gradient ( -45 deg ,  # ff516b  0 % , # ff516b  100 % );
+    /* Chrome10-25,Safari5.1-6 */
+     background :  linear-gradient ( 135 deg ,  # ff516b  0 % , # ff516b  100 % );
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+     filter : progid:DXImageTransform.Microsoft.gradient( startColorstr='#1275c7' , endColorstr='#1275c7' , GradientType=1 );
+    /* fallback IE6-9 pada gradien horizontal */
+}
+. btn-garis besar-bahaya {
+     border-color :  # ff253a ;
+     warna :  # ff253a ;
+}
+. teks-bahaya {
+     warna :  # ff253a  !penting ;
+}
+. bg-sekunder , . btn-sekunder , . btn-outline-secondary : hover , . lencana-sekunder {
+     border-color : transparan !important ;
+     latar belakang :  # 9ba8aa ;
+    /* Browser lama */
+     background :  -moz-linear-gradient ( -45 deg ,  # 9ba8aa  0 % ,  # 92b4d2  100 % );
+    /* FF3.6-15 */
+     latar belakang :  -webkit-linier-gradien ( -45 derajat ,  # 9ba8aa  0 % , # 92b4d2  100 % );
+    /* Chrome10-25,Safari5.1-6 */
+     background :  linear-gradient ( 135 deg ,  # 9ba8aa  0 % , # 92b4d2  100 % );
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+     filter : progid:DXImageTransform.Microsoft.gradient( startColorstr='#9ba8aa' , endColorstr='#92b4d2' , GradientType=1 );
+    /* fallback IE6-9 pada gradien horizontal */
+}
+. btn-outline-sekunder {
+     border-color :  # 9ba8aa ;
+     warna :  # 9ba8aa ;
+}
+. teks-sekunder {
+     warna :  # 9ba8aa  !penting ;
+}
+. bg-info , . btn-info , . btn-outline-info : arahkan kursor , . info lencana {
+     border-color : transparan !important ;
+     latar belakang :  # 17a2b8 ;
+    /* Browser lama */
+     background :  -moz-linear-gradient ( -45 deg ,  # 17a2b8  1 % ,  # 30def9  100 % );
+    /* FF3.6-15 */
+     latar belakang :  -webkit-linier-gradien ( -45 derajat ,  # 17a2b8  1 % , # 30def9  100 % );
+    /* Chrome10-25,Safari5.1-6 */
+     background :  linear-gradient ( 135 deg ,  # 17a2b8  1 % , # 30def9  100 % );
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+     filter : progid:DXImageTransform.Microsoft.gradient( startColorstr='#17a2b8' , endColorstr='#30def9' , GradientType=1 );
+    /* fallback IE6-9 pada gradien horizontal */
+}
+. btn-garis besar-info {
+     warna batas :  # 17a2b8 ;
+     warna :  # 17a2b8 ;
+}
+. info teks {
+     warna :  # 17a2b8  !penting ;
+}
+. bg-gelap , . btn-gelap , . btn-outline-dark : arahkan kursor , . lencana-gelap {
+     border-color : transparan !important ;
+     latar belakang :  # 171b20 ;
+    /* Browser lama */
+     background :  -moz-linear-gradient ( -45 deg ,  # 171b20  1 % ,  # 343a40  100 % );
+    /* FF3.6-15 */
+     latar belakang :  -webkit-linier-gradien ( -45 derajat ,  # 171b20  1 % , # 343a40  100 % );
+    /* Chrome10-25,Safari5.1-6 */
+     background :  linear-gradient ( 135 deg ,  # 171b20  1 % , # 343a40  100 % );
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+     filter : progid:DXImageTransform.Microsoft.gradient( startColorstr='#171b20' , endColorstr='#343a40' , GradientType=1 );
+    /* fallback IE6-9 pada gradien horizontal */
+}
+. btn-garis besar-gelap {
+     warna batas :  # 171b20 ;
+     warna :  # 171b20 ;
+}
+. teks-gelap {
+     warna :  # 171b20  !penting ;
+}
+. btn-cahaya {
+     batas : sedang tidak ada;
+}
+. blok iklan {
+     latar belakang :  # eceff0 tidak ada ulangi gulir 0  0 ;
+     border-radius :  2 px ;
+     margin-bawah :  1 rem ;
+     bantalan :  27 piksel  10 piksel ;
+     perataan teks : tengah;
+     lebar :  100 % ;
+}
+. judul utama  >  h6 {
+     margin :  0px 0  16px ; _  _
+}
+. kategori teratas . judul utama  >  h6 {
+     margin-bawah :  10 px ;
+}
+. tautan tindakan kanan . fa {
+    background :  # fff tidak ada ulangi scroll 0  0 ;
+    border-radius :  50 px ;
+    box- shadow :  0  0  6 px  #ececec ;
+    tampilan : blok-sebaris;
+    tinggi :  20 piksel ;
+    garis-tinggi :  19 px ;
+    margin :  0  0  0  3 piksel ;
+    perataan teks : tengah;
+    lebar :  20 piksel ;
+}
+. dropdown-item . aktif , . dropdown-item : aktif {
+    background-color :  # eceff0  !important ;
+    warna :  # 888888  !penting ;
+    dekorasi teks : tidak ada;
+}
+. kontrol bentuk {
+     latar belakang :  # eceff0 tidak ada ulangi gulir 0  0 ;
+     border-color :  # dcdfdf ;
+     border-radius :  2 px ;
+     ukuran font :  13 px ;
+}
+. pilih-kustom {
+     background-color :  # eceff0 ;
+     border-color :  # dcdfdf ;
+     border-radius :  2 px ;
+     ukuran font :  13 px ;
+}
+. kotak centang khusus . label-kontrol-kustom :: sebelum {
+     border-radius :  2 px ;
+}
+. kotak centang kategori . kontrol khusus {
+     margin :  0  0  6 px  !penting ;
+}
+ label {
+     ukuran font :  12 px ;
+     font-berat :  600 ;
+     margin :  0  0  5 piksel ;
+}
+ sebuah {
+     warna :  # ff516b ;
+     dekorasi teks : tidak ada !penting ;
+}
+. btn {
+     border-radius :  2 px ;
+}
+. btn-cahaya {
+     background :  # f8f8f8 tidak ada ulangi gulir 0  0 ;
+     warna batas :  # d3d3d3 ;
+     warna :  # 828282 ;
+}
+. tarik-turun-tajuk {
+     warna :  # 333 ;
+     bantalan :  7px 13px  ; _ _
+}
+. menu tarik-turun {
+     border-radius : 2 px ;
+     marjin :  0 ;
+     border-color :  # eff2f3 ;
+}
+. menu tarik-turun . dropdown-item {
+     warna :  rgba ( 0,0,0,0,5 )  ; _ _ _ _ _  
+     ukuran font :  12 px ;
+     padding :  6 px  14 px  !penting ;
+}
+. pembagi tarik-turun {
+     border-top :  1 px solid # eff2f3 ;
+}
+ a : melayang ,  h1 ,  h2 ,  h3 ,  h4 ,  h5 ,  h6 {
+     warna :  # 333 ;
+}
+. upload-video . fas {
+     ukuran font :  200 px ;
+}
+. lencana , . waspada {
+     border-radius :  2 px ;
+}
+. penomoran halaman . halaman-item . tautan halaman {
+     background : transparan tidak ada ulangi gulir 0  0 ;
+     batas : sedang tidak ada;
+     warna :  # 000 ;
+     tinggi garis :  20 px ;
+}
+. penomoran halaman . halaman-item . aktif . tautan halaman {
+     latar belakang :  # 1275c7 tidak ada ulangi gulir 0  0 ;
+     radius perbatasan:  2 px ;
+     warna:  #ff ; _
+     tinggi:  30 piksel ;
+     margin :  0  7 piksel ;
+     perataan teks : tengah;
+     lebar:  30 piksel ;
+}
+. penomoran halaman . halaman-item . dengan disabilitas . tautan halaman {
+     opasitas :  0,5 ;
+}
+. modal-konten {
+     perbatasan : sedang tidak ada;
+     radius batas :  2px ;
+}
+/* Penggeser Kategori */
+. kategori-item  img {
+     background :  # fff tidak ada ulangi scroll 0  0 ;
+     border-radius :  50 px ;
+     bayangan kotak :  0  0  2 px  # ccc ;
+     tinggi :  60px ; _
+     margin :  1px 0  8px ; _  _
+     objek-fit : skala-turun;
+     transformasi :  skala ( 1 );
+     lebar :  60 piksel ;
+}
+. kategori-item : arahkan  img {
+     transformasi :  skala ( 1.09 );
+     durasi transisi :  0,4 detik ;
+}
+. kategori-item {
+     background :  # fff tidak ada ulangi scroll 0  0 ;
+     border-radius :  2 px ;
+     box- shadow :  0  0  6 px  #ececec shadow 
+     margin :  6px 2px ; _  _
+     bantalan :  24 piksel  12 piksel ;
+     perataan teks : tengah;
+}
+. kategori teratas . kategori-item {
+     padding :  20 px  11 px ;
+}
+. kategori-item  h6 {
+     ukuran font :  13 px ;
+     margin :  5px 0 3px ; _  _ 
+     luapan : tersembunyi;
+     text-overflow : elipsis;
+     ruang putih : nowrap;
+}
+. kategori-item  p {
+     ukuran font :  11 px ;
+     font-berat :  500 ;
+     marjin :  0 ;
+}
+/* Kartu Video */
+. video-blok . mb-3 {
+    margin-bawah :  30 px  !penting ;
+}
+. gambar kartu video {
+     border-radius :  2 px ;
+     box- shadow :  0  0  11 px  #ececec ;
+     luapan : tersembunyi;
+     posisi : relatif;
+}
+. waktu {
+     latar belakang :  # f5234a tidak ada ulangi gulir 0  0 ;
+     border-radius :  2 px ;
+     bawah :  5 piksel ;
+     warna :  #ff ; _
+     ukuran font :  11 px ;
+     font-berat :  500 ;
+     opasitas :  0,7 ;
+     bantalan :  0  6 piksel ;
+     posisi : absolut;
+     kanan :  5 piksel ;
+}
+. kartu video : arahkan . waktu {
+     opasitas : tidak disetel;
+}
+. gambar kartu video  img {
+    lebar :  100 % ;
+}
+. ikon putar {
+     opasitas :  0 ;
+     posisi : absolut;
+}
+. ikon putar . fas {
+     bawah :  0 ;
+     tinggi :  40 piksel ;
+     kiri :  0 ;
+     margin : otomatis;
+     posisi : absolut;
+     kanan :  0 ;
+     atas :  0 ;
+     lebar :  40 piksel ;
+}
+. kartu video : arahkan . ikon putar {
+     background :  # 000 tidak ada ulangi scroll 0  0 ;
+     border-radius :  2 px ;
+     bawah :  0 ;
+     warna :  #ff ; _
+     ukuran font :  35 px ;
+     kiri :  0 ;
+     opasitas :  0,4 ;
+     posisi : absolut;
+     kanan :  0 ;
+     perataan teks : tengah;
+     atas :  0 ;
+     durasi transisi :  0,4 detik ;
+}
+. judul video  a {
+     warna :  # 000 ;
+     font-berat :  600 ;
+     dekorasi teks : tidak ada;
+}
+. judul video {
+     margin-bawah :  5 px ;
+}
+. halaman video {
+     ukuran font :  11 px ;
+}
+. tayangan video {
+     warna :  #acacac ; _
+     ukuran font :  10 px ;
+     font-berat :  500 ;
+     margin :  2 piksel  0  0 ;
+}
+. kartu video {
+     background :  # fff tidak ada ulangi scroll 0  0 ;
+     border-radius :  2 px ;
+     box- shadow :  0  0  11 px  #ececec ;
+     durasi transisi :  0,4 detik ;
+}
+. badan kartu video {
+     bantalan :  12 piksel ;
+}
+. daftar kartu video . gambar kartu video {
+     mengapung : kiri;
+     tinggi :  77px ; _
+     margin :  0  12px 0 0 ; _  
+     lebar :  122px ; _
+}
+. daftar kartu video . badan kartu video {
+     bantalan :  0 ;
+}
+. daftar kartu video {
+     background : transparan tidak ada ulangi gulir 0  0 ;
+     bayangan kotak : tidak ada;
+     tampilan : blok-sebaris;
+     margin-bawah :  1 rem ;
+     lebar :  100 % ;
+}
+. daftar kartu video . video-card-body . judul video  a {
+     ukuran font :  13 px ;
+}
+. daftar kartu video . video-card-body . judul video {
+     garis-tinggi :  17 px ;
+}
+. daftar kartu video . video-card-body . tindakan benar {
+     opasitas :  0 ;
+}
+. daftar kartu video : arahkan kursor . video-card-body . tindakan benar {
+     opasitas : tidak disetel;
+}
+/* Kartu Saluran */
+. saluran-kartu {
+     background :  # fff tidak ada ulangi scroll 0  0 ;
+     border-radius :  2 px ;
+     box- shadow :  0  0  11 px  #ececec ;
+     bantalan :  24 piksel  12 piksel ;
+     posisi : relatif;
+     perataan teks : tengah;
+     durasi transisi :  0,4 detik ;
+}
+. saluran-kartu :: setelah {
+     background :  # dcdcdc tidak ada ulangi gulir 0  0 ;
+     border-radius :  0  0  5 px  6 px ;
+     bawah :  -4 px ;
+     isi :  "" ;
+     tinggi :  7 piksel ;
+     kiri :  15px ; _
+     posisi : absolut;
+     kanan :  15 piksel ;
+     z-indeks :  -1 ;
+}
+. saluran-kartu : arahkan :: setelah {
+     background :  # cccccc none repeat scroll 0  0 ;
+}
+. saluran-judul  a {
+     warna :  # 000 ;
+     font-berat :  500 ;
+     dekorasi teks : tidak ada;
+}
+. tampilan saluran {
+     warna :  #acacac _ ; 
+}
+. saluran-kartu-gambar . btn {
+     ukuran font :  12 px ;
+     padding :  3 px  10 px ;
+}
+. saluran-kartu-gambar . btn  kuat {
+     margin :  0  0  0  5 piksel ;
+}
+. saluran-kartu-gambar  img {
+     background :  # fff tidak ada ulangi scroll 0  0 ;
+     border-radius :  50 px ;
+     bayangan kotak :  0  0  2 px  # ccc ;
+     tinggi :  80 piksel ;
+     margin :  1px 0  8px ; _  _
+     objek-fit : skala-turun;
+     transformasi :  skala ( 1 );
+     lebar :  80 piksel ;
+}
+. saluran-kartu-gambar-btn {
+     margin :  3px 0 7px  ; _  _
+}
+/* Halaman Login */
+. login-main-wrapper {
+     latar belakang :  # ff516b ;
+    /* Browser lama */
+     background :  -moz-linear-gradient ( 135 deg ,  # 1275c7  0 % , # d0e3f2  100 % );
+    /* FF3.6-15 */
+     background :  -webkit-linear-gradient ( 135 deg ,  # 1275c7  0 % , # d0e3f2  100 % );
+    /* Chrome10-25,Safari5.1-6 */
+     background :  linear-gradient ( 135 deg ,  # 1275c7  0 % , # d0e3f2  100 % );
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+     filter : progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff516b' , endColorstr='#826cfd' , GradientType=1 );
+    /* fallback IE6-9 pada gradien horizontal */
+     tinggi :  kalk ( 100 vh  -  0 rem );
+}
+. tinggi penuh {
+     tinggi :  kalk ( 100 vh  -  0 rem );
+}
+. masuk-utama-kiri {
+     margin : otomatis;
+     max-width :  335 px ;
+}
+. login-main-right . bg-putih {
+     border-radius :  2 px ;
+     margin : otomatis;
+     max-width :  561 px ;
+}
+. carousel-login-card  h5 {
+     ukuran font :  18 px ;
+}
+. login-main-wrapper . kontrol bentuk {
+     background : transparan tidak ada ulangi gulir 0  0 ;
+}
+. login-main-right . tema burung hantu . burung hantu-kontrol . rentang halaman burung hantu  {
+     latar belakang :  # dcdcdc ;
+     border-radius :  50 px ;
+     tinggi :  16 piksel ;
+     margin :  0  2 piksel ;
+     opasitas : tidak disetel;
+     lebar :  16 piksel ;
+}
+. btn-lg {
+     ukuran font :  15 px ;
+     bantalan :  12 piksel  16 piksel ;
+}
+. login-main-right . tema burung hantu . burung hantu-kontrol . halaman burung hantu . rentang aktif  , . login-main-right . tema burung hantu . burung hantu-kontrol . rentang halaman burung hantu : arahkan { 
+     latar belakang :  # ff516b ;
+    /* Browser lama */
+     background :  -moz-linear-gradient ( 135 deg ,  # 1275c7  0 % , # d0e3f2  100 % );
+    /* FF3.6-15 */
+     background :  -webkit-linear-gradient ( 135 deg ,  # 1275c7  0 % , # d0e3f2  100 % );
+    /* Chrome10-25,Safari5.1-6 */
+     background :  linear-gradient ( 135 deg ,  # 1275c7  0 % , # d0e3f2  100 % );
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+     filter : progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff516b' , endColorstr='#826cfd' , GradientType=1 );
+    /* fallback IE6-9 pada gradien horizontal */
+}
+/* Unggah Detail */
+. imgplace {
+     background-color :  # 8781bd ;
+     border-radius :  3 px ;
+     tinggi :  94 piksel ;
+     lebar :  100 % ;
+}
+. judul-osahan {
+     warna :  # 000 ;
+     font-berat :  600 ;
+}
+. ukuran osahan {
+     ukuran font :  11 px ;
+}
+. osahan-kemajuan . kemajuan {
+     border-radius :  2 px ;
+     tinggi :  8px ; _
+     margin :  14 piksel  0 ;
+}
+. osahan-close {
+     posisi : absolut;
+     kanan :  18 piksel ;
+     atas :  0 ;
+}
+. osahan-desc {
+     ukuran font :  12 px ;
+     opasitas :  0,7 ;
+}
+/* Histori Tontonan */
+. tutup video {
+     warna :  # fff  !penting ;
+     ukuran font :  18 px ;
+     posisi : absolut;
+     kanan :  6 piksel ;
+     indeks-z :  9999 ;
+}
+. sejarah-video . kemajuan {
+     border-radius :  2 px ;
+     ukuran font :  9 px ;
+     font-berat :  700 ;
+     tinggi :  13 piksel ;
+     margin :  12 px  14 px  -4 px  13 px ;
+}
+/* Saluran Tunggal */
+. gambar-saluran-tunggal {
+     posisi : relatif;
+}
+. navigasi saluran tunggal . bilah navigasi {
+     bantalan :  0 ;
+}
+. nav-saluran-tunggal {
+     background :  # fff tidak ada ulangi scroll 0  0  !important ;
+     box- shadow :  0  0  11 px  #ececec ;
+     padding :  0 rem  30 px  0 ;
+}
+. saluran-merek {
+     warna :  # 000 ;
+     ukuran font :  16 px ;
+     font-berat : tebal;
+}
+. navigasi saluran tunggal . nav-link {
+     border-bottom :  2 px padat transparan;
+     margin :  0  12 piksel ;
+     padding :  14 px  0  !penting ;
+}
+. navigasi saluran tunggal . nav-item . aktif . nav-link , . navigasi saluran tunggal . nav-item . nav-link : arahkan {
+     warna batas :  # ff516b ;
+     warna :  # ff516b ;
+}
+. navigasi saluran tunggal . navbar-nav {
+     margin :  0  0  0  40 piksel ;
+}
+. saluran-profil {
+     bawah :  0 ;
+     kiri :  0 ;
+     bantalan :  1 rem  30 px ;
+     posisi : absolut;
+     benar :  0 ;
+}
+. gambar-saluran-tunggal . img-cair {
+    lebar :  100 % ;
+}
+. saluran-profil-img {
+     background :  # fff tidak ada ulangi scroll 0  0 ;
+     perbatasan :  6 px padat # fff ;
+     border-radius :  50 px ;
+     tinggi :  90px ; _
+     lebar :  90 piksel ;
+}
+. sosial {
+     warna :  #ff ; _
+     mengapung : benar;
+     margin :  62 piksel  0  0 ;
+}
+. sosial  { _
+     background :  # 000 tidak ada ulangi scroll 0  0 ;
+     border-radius :  2 px ;
+     warna :  #ff ; _
+     ukuran font :  12 px ;
+     font-berat :  600 ;
+     padding :  5px 10px ; _  _
+}
+/* Halaman Video */
+. kotak {
+     bantalan :  15 piksel ;
+     background :  # fff tidak ada ulangi scroll 0  0 ;
+     border-radius :  2 px ;
+     box- shadow :  0  0  11 px  #ececec ;
+     durasi transisi :  0,4 detik ;
+}
+. judul video tunggal  h2 {
+     ukuran font :  18 px ;
+}
+. judul video tunggal  h2  a {
+     warna :  # 333 ;
+}
+. penulis video tunggal  img {
+     border-radius :  50 px ;
+     mengapung : kiri;
+     tinggi :  38 piksel ;
+     margin :  0  13 piksel  0  0 ;
+     lebar :  38 piksel ;
+}
+. penulis video tunggal  p {
+     marjin :  0 ;
+     bantalan :  0 ;
+}
+. satu-video-info-konten  h6 {
+     ukuran font :  15 px ;
+     font-berat :  600 ;
+}
+. tag  menjangkau  { _
+     latar belakang :  # ccc tidak ada ulangi gulir 0  0 ;
+     border-radius :  2 px ;
+     warna :  #ff ; _
+     tampilan : blok-sebaris;
+     padding :  4 px  9 px ;
+}
+. tag  span  a : arahkan {
+     background :  # 000 tidak ada ulangi scroll 0  0 ;
+}
+/* Footer */
+. img aplikasi  {
+     background :  # 231f20 tidak ada ulangi gulir 0  0 ;
+     border-radius :  3 px ;
+     tinggi :  38 piksel ;
+     margin :  5 piksel  0  0 ;
+     objek-fit : skala-turun;
+     padding :  3 px  4 px ;
+}
+/* Media Seluler */
+/* Perangkat ekstra kecil (ponsel potret, kurang dari 576 piksel) */
+ @media ( lebar maks :  575,98 px ) {
+    . penelusuran seluler teratas {
+        tampilan : blokir;
+    }
+    # bungkus  # pembungkus konten . wadah-cairan {
+        padding-bottom :  15 px  !penting ;
+        padding-kiri :  108 px ;
+        padding-kanan :  15 px  !penting ;
+        padding-top :  1 rem  !penting ;
+    }
+    . bilah sisi . nav-item . nav-link {
+        padding :  8 px  14 px  !penting ;
+    }
+    . sidebar-toggled  # wrapper  # content-wrapper . wadah-cairan {
+        padding-kiri :  15 px ;
+    }
+    . laman-saluran-tunggal {
+         padding :  0  0  0  90 px  !penting ;
+    }
+    . sidebar-toggled . laman-saluran-tunggal {
+        padding :  0  !penting ;
+    }
+    . laman saluran tunggal . wadah-cairan {
+        padding :  30 px  15 px  15 px  !penting ;
+    }
+
+    . penulis video tunggal . float-kanan {
+        mengapung : tidak ada !penting ;
+        margin :  0  0  14 piksel ;
+    }
+    . penulis video tunggal {
+        perataan teks : tengah;
+    }
+    . penulis video tunggal  img {
+        mengapung : tidak ada;
+        margin :  0  0  5 piksel ;
+    }
+
+    . tag  menjangkau  { _
+        margin :  0  0  3 piksel ;
+    }
+
+     . bilah sisi . nav-item . rentang nav-link  {
+         margin :  0  !penting ;
+    }
+     . bilah sisi . saluran-sidebar-daftar  h6 {
+         ukuran font :  11 px  !penting ;
+    }
+     . bilah sisi . saluran-sidebar-daftar {
+         tampilan : tidak ada;
+    }
+    . bilah sisi . nav-item . rentang nav-link  {
+         tampilan : blokir;
+         ukuran font :  0,65 rem ;
+    }
+     . gambar kartu video  img {
+         lebar :  100 % ;
+    }
+     catatan kaki {
+        padding :  15 px  0  !penting ;
+        perataan teks : tengah;
+    }
+     catatan kaki . teks-kanan {
+         perataan teks : tengah !penting ;
+    }
+     . osahan-kanan-navbar . nav-link {
+         ukuran font :  0 ;
+         padding :  22 px  5 px  !penting ;
+    }
+     . osahan-kanan-navbar . nav-link . fas {
+         ukuran font :  12 px ;
+    }
+     # sidebarToggle {
+         margin :  0  9 px  0  0 ;
+    }
+     . navbar-merek  img {
+         perataan vertikal : atas;
+    }
+     . tema burung hantu . burung hantu-kontrol . div tombol burung hantu  {
+         margin :  4 px  !penting ;
+    }
+     . nav-saluran-tunggal {
+         bantalan :  15 piksel ;
+    }
+     . saluran-profil {
+         bantalan :  10 piksel ;
+         posisi : relatif;
+         perataan teks : tengah;
+    }
+     . sosial {
+         tampilan : tidak ada;
+    }
+     . navbar-toggler {
+         padding :  1 px  3 px ;
+    }
+     . navigasi saluran tunggal . navbar-nav {
+         marjin :  0 ;
+    }
+     . navigasi saluran tunggal . nav-link {
+         marjin :  0 ;
+    }
+    . imgplace {
+        margin-bawah :  15 px ;
+    }
+    . judul-osahan {
+        bantalan :  0  25 piksel  5 piksel  0 ;
+    }
+    catatan kaki . sticky-footer {
+        margin-kiri :  90 px ;
+    }
+    . footer sidebar-toggled  . sticky-footer {
+        marjin :  0 ;
+    }
+}
+/* Perangkat kecil (ponsel lanskap, 576px dan lebih tinggi) */
+ @media ( min-width :  576 px ) dan ( max-width :  767.98 px ) {
+    . penelusuran seluler teratas {
+        tampilan : blokir;
+    }
+    # bungkus  # pembungkus konten . wadah-cairan {
+        padding-bottom :  15 px  !penting ;
+        padding-kiri :  108 px ;
+        padding-kanan :  15 px  !penting ;
+        padding-top :  1 rem  !penting ;
+    }
+    . bilah sisi . nav-item . nav-link {
+        padding :  8 px  14 px  !penting ;
+    }
+    . sidebar-toggled  # wrapper  # content-wrapper . wadah-cairan {
+        padding-kiri :  15 px ;
+    }
+    . laman-saluran-tunggal {
+         padding :  0  0  0  90 px  !penting ;
+    }
+    . sidebar-toggled . laman-saluran-tunggal {
+        padding :  0  !penting ;
+    }
+    . laman saluran tunggal . wadah-cairan {
+        padding :  30 px  15 px  15 px  !penting ;
+    }
+    . wadah {
+       lebar maks :  100 % ;
+    }
+     . tag  menjangkau  { _
+        margin :  0  0  3 piksel ;
+    }
+
+     . bilah sisi . nav-item . rentang nav-link  {
+         margin :  0  !penting ;
+    }
+     . bilah sisi . saluran-sidebar-daftar  h6 {
+         ukuran font :  11 px  !penting ;
+    }
+     . bilah sisi . saluran-sidebar-daftar {
+         tampilan : tidak ada;
+    }
+    . bilah sisi . nav-item . rentang nav-link  {
+         tampilan : blokir;
+         ukuran font :  0,65 rem ;
+    }
+     . gambar kartu video  img {
+         lebar :  100 % ;
+    }
+     catatan kaki {
+        padding :  15 px  0  !penting ;
+        perataan teks : kiri;
+    }
+     catatan kaki . teks-kanan {
+         perataan teks : benar !penting ;
+    }
+     . osahan-kanan-navbar . nav-link {
+         ukuran font :  0 ;
+         padding :  22 px  5 px  !penting ;
+    }
+     . osahan-kanan-navbar . nav-link . fas {
+         ukuran font :  12 px ;
+    }
+     # sidebarToggle {
+         margin :  0  9 piksel  0  0 ;
+    }
+     . navbar-merek  img {
+         perataan vertikal : atas;
+    }
+     . tema burung hantu . burung hantu-kontrol . div tombol burung hantu  {
+         margin :  4 px  !penting ;
+    }
+     . nav-saluran-tunggal {
+         bantalan :  15 piksel ;
+    }
+     . saluran-profil {
+         bantalan :  10 piksel ;
+         posisi : relatif;
+         perataan teks : tengah;
+    }
+     . sosial {
+         tampilan : tidak ada;
+    }
+     . navbar-toggler {
+         bantalan :  1px 3px ; _  _
+    }
+     . navigasi saluran tunggal . navbar-nav {
+         marjin :  0 ;
+    }
+     . navigasi saluran tunggal . nav-link {
+         marjin :  0 ;
+    }
+    . imgplace {
+        margin-bawah :  15 px ;
+    }
+    . judul-osahan {
+        bantalan :  0  25 piksel  5 piksel  0 ;
+    }
+    catatan kaki . sticky-footer {
+        margin-kiri :  90 px ;
+    }
+    . footer sidebar-toggled  . sticky-footer {
+        marjin :  0 ;
+    }
+}
+/* Perangkat sedang (tablet, 768px dan lebih tinggi) */
+ @media ( min-width :  768 px ) dan ( max-width :  991.98 px ) {
+    # bungkus  # pembungkus konten . wadah-cairan {
+        padding-bottom :  15 px  !penting ;
+        padding-kiri :  243 px ;
+        padding-kanan :  15 px  !penting ;
+        padding-top :  1 rem  !penting ;
+    }
+    . bilah sisi . nav-item . nav-link {
+        padding :  8 px  14 px  !penting ;
+    }
+    . sidebar-toggled  # wrapper  # content-wrapper . wadah-cairan {
+        padding-kiri :  105 px ;
+    }
+    . laman-saluran-tunggal {
+         padding :  0  0  0  225 px  !penting ;
+    }
+     . sidebar-toggled . bilah sisi . saluran-sidebar-daftar {
+         tampilan : tidak ada;
+    }
+    . sidebar-toggled . laman-saluran-tunggal {
+        padding :  0  0  0  90 px  !penting ;
+    }
+    . laman saluran tunggal . wadah-cairan {
+        padding :  30 px  15 px  15 px  !penting ;
+    }
+     . gambar kartu video  img {
+         lebar :  100 % ;
+    }
+     . osahan-kanan-navbar . nav-link {
+         ukuran font :  0 ;
+         padding :  22 px  5 px  !penting ;
+    }
+     . osahan-kanan-navbar . nav-link . fas {
+         ukuran font :  12 px ;
+    }
+     # sidebarToggle {
+         margin :  0  9 px  0  0 ;
+    }
+     . navbar-merek  img {
+         perataan vertikal : atas;
+    }
+     . tema burung hantu . burung hantu-kontrol . div tombol burung hantu  {
+         margin :  4 px  !penting ;
+    }
+     . wadah {
+         lebar-maks :  100 % ;
+    }
+     . nav-saluran-tunggal {
+         bantalan :  15 piksel ;
+    }
+     . saluran-profil {
+         bantalan :  15 piksel ;
+    }
+     . sosial {
+         tampilan : tidak ada;
+    }
+     . navbar-toggler {
+         bantalan :  1px 3px ; _  _
+    }
+     . navigasi saluran tunggal . navbar-nav {
+         marjin :  0 ;
+    }
+     . navigasi saluran tunggal . nav-link {
+         marjin :  0 ;
+    }
+     . osahan-navbar-search . kontrol bentuk {
+         lebar : otomatis !penting ;
+    }
+     . pencarian osahan-navbar {
+         margin-kanan :  15 px  !penting ;
+    }
+    . imgplace {
+        margin-bawah :  15 px ;
+    }
+    . judul-osahan {
+        bantalan :  0  25 piksel  5 piksel  0 ;
+    }
+}
+/* Perangkat besar (desktop, 992px dan lebih tinggi) */
+ @media ( min-width :  992 px ) dan ( max-width :  1199.98 px ) {
+    # bungkus  # pembungkus konten . wadah-cairan {
+        padding-bottom :  15 px  !penting ;
+        padding-kiri :  243 px ;
+        padding-kanan :  15 px  !penting ;
+        padding-top :  1 rem  !penting ;
+    }
+    . bilah sisi . nav-item . nav-link {
+        padding :  8 px  14 px  !penting ;
+    }
+    . sidebar-toggled  # wrapper  # content-wrapper . wadah-cairan {
+        padding-kiri :  105 px ;
+    }
+    . laman-saluran-tunggal {
+         padding :  0  0  0  225 px  !penting ;
+    }
+     . sidebar-toggled . bilah sisi . saluran-sidebar-daftar {
+         tampilan : tidak ada;
+    }
+    . sidebar-toggled . laman-saluran-tunggal {
+        padding :  0  0  0  90 px  !penting ;
+    }
+    . laman saluran tunggal . wadah-cairan {
+        padding :  30 px  15 px  15 px  !penting ;
+    }
+     . gambar kartu video  img {
+         lebar :  100 % ;
+    }
+     . osahan-kanan-navbar . nav-link {
+         ukuran font :  0 ;
+         padding :  22 px  5 px  !penting ;
+    }
+     . osahan-kanan-navbar . nav-link . fas {
+         ukuran font :  12 px ;
+    }
+     # sidebarToggle {
+         margin :  0  9 piksel  0  0 ;
+    }
+     . navbar-merek  img {
+         perataan vertikal : atas;
+    }
+     . tema burung hantu . burung hantu-kontrol . div tombol burung hantu  {
+         margin :  4 px  !penting ;
+    }
+     . wadah {
+         lebar-maks :  100 % ;
+    }
+     . nav-saluran-tunggal {
+         bantalan :  0  15 px ;
+    }
+     . saluran-profil {
+         bantalan :  15 piksel ;
+    }
+     . sosial {
+         tampilan : tidak ada;
+    }
+     . navbar-toggler {
+         bantalan :  1px 3px ; _  _
+    }
+     . navigasi saluran tunggal . navbar-nav {
+         margin :  0  0  0  20px ; _
+    }
+     . navigasi saluran tunggal . nav-link {
+         margin :  0  7 piksel ;
+    }
+    . navigasi saluran tunggal . bentuk-kontrol , . navigasi saluran tunggal . btn-garis besar-sukses {
+        tampilan : tidak ada;
+    }
+    . osahan-navbar-search . kontrol bentuk {
+         lebar : otomatis !penting ;
+    }
+     . pencarian osahan-navbar {
+         margin-kanan :  15 px  !penting ;
+    }
+    . sidebar-toggled . bilah sisi . saluran-sidebar-daftar {
+        tampilan : tidak ada;
+    }
+}
+/* Perangkat ekstra besar (desktop besar, 1200px ke atas) */
+ @media ( min-width :  1200 px ) {
+    . sidebar-toggled . bilah sisi . saluran-sidebar-daftar {
+        tampilan : tidak ada;
+    }
+}
